@@ -6,6 +6,7 @@ class Beast < Formula
   url "http://tree.bio.ed.ac.uk/download.php?id=92&num=3"
   version "1.8.2"
   sha1 "47a5aca20fecf6cb61a301f8b03d1e750858721a"
+  head "https://github.com/beast-dev/beast-mcmc.git"
 
   bottle do
     cellar :any
@@ -15,7 +16,6 @@ class Beast < Formula
   end
 
   head do
-    url "https://beast-mcmc.googlecode.com/svn/trunk/"
     depends_on :ant
   end
 
