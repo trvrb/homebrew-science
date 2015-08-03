@@ -16,6 +16,7 @@ class Beast < Formula
   end
 
   head do
+    url "https://github.com/beast-dev/beast-mcmc.git"
     depends_on :ant
   end
 
